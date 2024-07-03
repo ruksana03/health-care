@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.custom-swiper .swiper-pagination-bullet-active {
+  background-color: #FFC637 !important; 
+}
+
+.banner{
+  border-radius: 48px;
+}
+.head {
+  font-family: var(--font-base);
+  color: white;
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+.head2 {
+  font-family: var(--font-base);
+  color: #020043;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
+.normalText {
+  font-family: var(--font-base);
+  color: white;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.btn-style {
+  background-color: #FFC637;
+  color:black;
+  font-family: var(--font-base);
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 0.5rem 2rem;
+  outline: none;
+}
+.btn-style2 {
+  background-color: transparent;
+  color:white;
+  font-family: var(--font-base);
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 0.5rem 2rem;
+  border: 2px solid #FFC637;
+  outline: none;
+}
+.btn-style3 {
+  background-color: transparent;
+  color:#020043;
+  font-family: var(--font-base);
+  letter-spacing: 0.04em;
+  line-height: 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  padding: 0.2rem 1rem;
+  border: 1px solid #020043;
+  outline: none;
+}
+
+@media (max-width: 992px) {
+  .head {
+    font-size: 48px;
+    line-height: 62.4px;
+  }
+}
+
+@media (max-width: 768px) {
+  .head {
+    font-size: 40px;
+    line-height: 52px;
+  }
+}
+
+@media (max-width: 576px) {
+  .head {
+    font-size: 32px;
+    line-height: 41.6px;
+  }
+}
